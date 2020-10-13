@@ -1,0 +1,28 @@
+.login{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background: black;
+}
+.login img{
+    width: 100%;
+    max-width: 27rem;
+}
+@media screen and (max-width:600px){
+    .login img{
+        width: 60%;
+        min-width: 15.2rem;
+    }
+    .login a{
+        font-size: 0.8rem;
+    }
+}
+.login a{
+    padding: 14px 32px;
+    background: #1ed760;
+    border-radius: 20rem;
+    font-weight: 600;
+    letter-spacing: 1.4px;
+    color: white;
+    text-decoration: none;
+}

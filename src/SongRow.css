@@ -1,0 +1,50 @@
+.songRow {
+    margin:0 20px;
+    padding:10px 20px;
+    display: flex;
+    align-items: center;
+    z-index: 100;
+    color: white;
+    border-radius: 3.8px;
+  }
+  
+  .songRow:hover{
+    cursor: pointer;
+    background-color: rgba(102, 102, 102, 0.281);
+  }
+  .songRow:hover .songRow__info > p{
+    color: white;
+  }
+  
+  .songRow__info {
+    margin-left: 20px;
+  }
+  
+  .songRow__info > h1 {
+    font-size: 16px;
+  }
+  
+  .songRow__info > p {
+    font-size: 14px;
+    margin-top: 3px;
+    color: rgb(145, 145, 145);
+  }
+  
+  .songRow__album {
+    height: 40px;
+    width: 40px;
+  }
+
+@media screen and (max-width:680px){
+    .songRow {
+        margin:5px 2px;
+        padding: 0;
+        align-items: flex-start;
+    }
+    .songRow__info {
+        margin-left: 10px;
+      }
+      /* .songRow__info p{
+        display: none;
+    } */
+}

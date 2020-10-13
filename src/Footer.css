@@ -1,0 +1,116 @@
+.footer{
+    position: fixed;
+    bottom: 0;
+    height: 65px;
+    width: 100%;
+    background: #303030;
+    color: white;
+    padding: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+.footer__left{
+    flex: 0.3;
+    display: flex;
+    align-items: center;
+    min-width: 160px;
+    /* background: yellowgreen; */
+    overflow: hidden;
+}
+.footer__albumLogo{
+    height: 60px;
+    width: 60px;
+    object-fit: contain;
+    margin-right: 16px;
+}
+.footer__songInfo p:nth-child(1){
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+}
+.footer__songInfo p:nth-child(2){
+    font-size: 12px;
+    color: rgb(185, 185, 185);
+}
+
+.footer__center{
+    flex: 0.4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 250px;
+}
+.footer__center__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+.footer__center__content::after{
+    position: absolute;
+    content: '';
+    height: 3.6px;
+    border-radius: 10px;
+    bottom: -15px; 
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background: rgba(128, 128, 128, 0.623);
+}
+
+.footer__icon{
+    transition: all 0.2s ease;
+}
+.footer__green{
+    transition: all 0.2s ease;
+    color: #2fec71e5;
+}
+.footer__icon:hover,
+.footer__green:hover{
+    transition: all 0.2s ease;
+    transform: scale(1.2) !important;
+}
+
+.footer__right{
+    flex: 0.3;
+    margin-right: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    /* background: purple; */
+}
+.footer__right__content{
+   padding-top: 10px;
+   width: 100%;
+   max-width: 200px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   /* background: pink; */
+}
+.footer__right__content * .MuiSlider-root{
+    color: #2fec71e5;
+}
+
+@media screen and (max-width: 700px){
+    /* .footer{
+        justify-content: space-around;
+    } */
+    .footer__left{
+        flex: 0.4;
+    }
+    .footer__albumLogo{
+        margin-right: 7px;
+    }
+    .footer__center{
+        flex: 0.6;
+        margin-right: 28px;
+        /* background: pink; */
+    }
+    .footer__right{
+        display: none;
+    }
+}

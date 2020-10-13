@@ -1,0 +1,49 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    margin-top: -10px;
+}
+.header__left{
+    height: 20px;
+    min-width: 100px;
+    background: white;
+    color: gray;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    padding: 8px;
+}
+.header__left input{
+    border: none;
+    width: 100%;
+    font-size: 13px;
+    margin-left: 6px;
+    outline: none;
+}
+
+.header__right{
+    display: flex;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.353);
+    border-radius: 30px;
+    padding: 0 10px 0 0;
+}
+.avatar{
+    margin-left: 2.6px;
+    transform: scale(0.8);
+}
+.header__right h5{
+    margin-left: 5px;
+}
+
+@media screen and (max-width:600px){
+    .header__right{
+        border-radius: 0;
+        padding:0;
+        background: transparent;
+    }
+    .header__right h5{
+        display: none;
+    }
+}
