@@ -1,3 +1,6 @@
+## Spotify 
+User can login with their original spotify account or create new spotify account and after successful login, User will be able to see their list playlists and The discover weekly playlist with the list of songs by Spotify.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
