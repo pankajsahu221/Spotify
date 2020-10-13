@@ -5,6 +5,8 @@ Try it now
 
 https://spotify-clone-66eb5.web.app/
 
+![screenshot](https://github.com/pankajsahu221/Spotify/blob/main/src/spotify-shot2.JPG)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
