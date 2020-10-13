@@ -1,5 +1,7 @@
 ## Spotify 
-User can login with their original spotify account or create new spotify account and after successful login, User will be able to see their list playlists and The discover weekly playlist with the list of songs which changes every monday by Spotify.
+* User can login with their original spotify account or create new spotify account and after successful login,
+* User will be able to see their list playlists 
+* User will be able to see The discover weekly playlist with the list of songs which changes every monday by Spotify.
 
 Try it now
 
