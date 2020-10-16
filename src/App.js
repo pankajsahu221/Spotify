@@ -1,4 +1,4 @@
-import React,{ useEffect, useState } from 'react'; 
+import React,{ useEffect, useState } from 'react';
 // import './App.css';
 import Login from './Login';
 import Player from './Player';
