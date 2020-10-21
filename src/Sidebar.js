@@ -9,7 +9,7 @@ import AddIcon from '@material-ui/icons/Add';
 import { useStateValue } from './StateProvider';
 
 function Sidebar() {
-    const [{ playlists }, dispatch] = useStateValue();
+    const [{ playlists }, dispatch] = useStateValue(); 
     console.log("user's playlists - ", playlists);
 
     return (
