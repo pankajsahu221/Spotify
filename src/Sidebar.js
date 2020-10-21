@@ -10,7 +10,7 @@ import { useStateValue } from './StateProvider';
 
 function Sidebar() {
     const [{ playlists }, dispatch] = useStateValue();
-    console.log("user's playlists - ", playlists); 
+    console.log("user's playlists - ", playlists);
 
     return (
         <div className="sidebar">
